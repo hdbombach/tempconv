@@ -1,0 +1,19 @@
+{
+    "name": "hdbombach/tempconv",
+    "description": "erstellt einen test",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hdbombach\\Tempconv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "detlev",
+            "email": "detlev@bombach.info"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
