@@ -3,6 +3,19 @@
     "description": "erstellt einen test",
     "type": "library",
     "license": "MIT",
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.org",
+            "options": {
+                "exclude": ["*"]
+            }
+        },
+        "custom": {
+            "type": "vcs",
+            "url": "https://github.com/hdbombach/drupal-modules"
+        }
+    },
     "autoload": {
         "psr-4": {
             "Hdbombach\\Tempconv\\": "src/"
